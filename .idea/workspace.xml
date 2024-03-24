@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9d8d3aba-97aa-4f8d-a35e-54601578764e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/techshop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms_order/Dockerfile.app" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms_order/Dockerfile.database" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms_payment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms_payment/Dockerfile.app" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms_payment/Dockerfile.database" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms_product" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms_product/Dockerfile.database" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms_user/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms_user/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms_user/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms_user/Dockerfile.app" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms_user/Dockerfile.database" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms_user/init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms_user/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms_user/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms_user/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms_user/src/main/java/com/techshopmsuser/MsuserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms_user/src/main/java/com/techshopmsuser/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms_user/src/main/java/com/techshopmsuser/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms_user/src/main/java/com/techshopmsuser/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms_user/src/main/java/com/techshopmsuser/repository/IUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms_user/src/main/java/com/techshopmsuser/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms_user/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms_user/src/test/java/com/techshopmsuser/MsuserApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms_order/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms_order/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ms_order/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms_order/src/test/java/com/techshop/ms_order/controller/OrdersControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms_order/src/test/java/com/techshop/ms_order/controller/OrdersControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms_order/src/test/java/com/techshop/ms_order/service/OrdersServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms_order/src/test/java/com/techshop/ms_order/service/OrdersServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms_payment/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms_payment/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms_payment/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms_product/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ms_product/Dockerfile.app" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms_product/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms_product/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms_product/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ms_payment" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2e9DGOQII0WcBWeXiufOD6zegek" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
+    "Docker.ms_order/Dockerfile.app.executor": "Run",
+    "Docker.ms_order/Dockerfile.database.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/thacampos/Documents/Aulas/Pós/techshop"
+  }
+}]]></component>
+  <component name="RunManager" selected="Docker.ms_order/Dockerfile.database">
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile" />
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="ms_order/Dockerfile.app" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="ms_order/Dockerfile.app" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="ms_order/Dockerfile.database" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="ms_order/Dockerfile.database" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.ms_order/Dockerfile.database" />
+        <item itemvalue="Docker.ms_order/Dockerfile.app" />
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-78a6f59c" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d8d3aba-97aa-4f8d-a35e-54601578764e" name="Changes" comment="" />
+      <created>1711307803997</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711307803997</updated>
+    </task>
+    <servers />
+  </component>
+</project>
