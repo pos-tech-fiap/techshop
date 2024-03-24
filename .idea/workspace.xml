@@ -5,46 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d8d3aba-97aa-4f8d-a35e-54601578764e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/techshop.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms_order/Dockerfile.app" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms_order/Dockerfile.database" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms_payment" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms_payment/Dockerfile.app" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms_payment/Dockerfile.database" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms_product" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms_product/Dockerfile.database" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms_user/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms_user/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms_user/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms_user/Dockerfile.app" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms_user/Dockerfile.database" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms_user/init.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms_user/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms_user/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms_user/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms_user/src/main/java/com/techshopmsuser/MsuserApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms_user/src/main/java/com/techshopmsuser/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms_user/src/main/java/com/techshopmsuser/dto/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms_user/src/main/java/com/techshopmsuser/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms_user/src/main/java/com/techshopmsuser/repository/IUserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms_user/src/main/java/com/techshopmsuser/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms_user/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms_user/src/test/java/com/techshopmsuser/MsuserApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms_order/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms_order/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ms_order/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms_order/src/test/java/com/techshop/ms_order/controller/OrdersControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms_order/src/test/java/com/techshop/ms_order/controller/OrdersControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms_order/src/test/java/com/techshop/ms_order/service/OrdersServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms_order/src/test/java/com/techshop/ms_order/service/OrdersServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms_payment/docker-compose.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms_payment/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms_payment/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms_product/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/ms_product/Dockerfile.app" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms_product/docker-compose.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms_product/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms_product/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms_order" beforeDir="false" afterPath="$PROJECT_DIR$/ms_order" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms_payment" beforeDir="false" afterPath="$PROJECT_DIR$/ms_payment" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms_product" beforeDir="false" afterPath="$PROJECT_DIR$/ms_product" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +47,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/thacampos/Documents/Aulas/Pós/techshop"
+    "last_opened_file_path": "/home/thacampos/Documents/Aulas/Pós/techshop/ms_order"
   }
 }]]></component>
   <component name="RunManager" selected="Docker.ms_order/Dockerfile.database">

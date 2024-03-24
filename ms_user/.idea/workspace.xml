@@ -4,11 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="808115cd-cfc3-4adc-b8a7-dfce854e74a5" name="Changes" comment="" />
+    <list default="true" id="808115cd-cfc3-4adc-b8a7-dfce854e74a5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms_order" beforeDir="false" afterPath="$PROJECT_DIR$/../ms_order" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms_payment" beforeDir="false" afterPath="$PROJECT_DIR$/../ms_payment" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ms_product" beforeDir="false" afterPath="$PROJECT_DIR$/../ms_product" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -17,9 +26,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2e9CMAHh7nlbvgaakkVPb3rerAz" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -30,7 +39,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/thacampos/Documents/Aulas/Pós/techshop"
+    "last_opened_file_path": "/home/thacampos/Documents/Aulas/Pós/techshop/ms_user"
   }
 }]]></component>
   <component name="RecentsManager">
