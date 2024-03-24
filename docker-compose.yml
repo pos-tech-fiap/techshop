@@ -1,0 +1,116 @@
+version: '3.8'
+
+services:
+  ms_order:
+    build:
+      context: ./ms_order/
+      dockerfile: Dockerfile.app
+    ports:
+      - "8082:8082"
+    networks:
+      - ms_network
+    depends_on:
+      - ms_order_db
+
+  ms_product:
+    build:
+      context: ./ms_product/
+      dockerfile: Dockerfile.app
+    ports:
+      - "8084:8084"
+    networks:
+      - ms_network
+    depends_on:
+      - ms_product_db
+
+  ms_payment:
+    build:
+      context: ./ms_payment/
+      dockerfile: Dockerfile.app
+    ports:
+      - "8083:8083"
+    networks:
+      - ms_network
+    depends_on:
+      - ms_payment_db
+
+  ms_user:
+    build:
+      context: ./ms_user/
+      dockerfile: Dockerfile.app
+    ports:
+      - "8080:8080"
+    networks:
+      - ms_network
+    depends_on:
+      - ms_user_db
+
+  ms_order_db:
+    build:
+      context: ./ms_order/
+      dockerfile: Dockerfile.database
+    environment:
+      MONGO_INITDB_DATABASE: msorders
+      MONGO_INITDB_ROOT_USERNAME: msorder
+      MONGO_INITDB_ROOT_PASSWORD: msorder
+    networks:
+      - ms_network
+    ports:
+      - "27017:27017"
+
+  postgres_db:
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: msorders,msproduct,mspayment
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - ms_network
+
+
+#  ms_product_db:
+#    image: postgres:latest
+#    environment:
+#      POSTGRES_DB: msproduct
+#      POSTGRES_USER: postgres
+#      POSTGRES_PASSWORD: postgres
+#    networks:
+#      - ms_network
+#    ports:
+#      - "5431:5432"
+#    volumes:
+#      - ./ms_product/init.sql:/docker-entrypoint-initdb.d/init.sql
+#
+#  ms_payment_db:
+#    image: postgres:latest
+#    environment:
+#      POSTGRES_DB: mspayment
+#      POSTGRES_USER: postgres
+#      POSTGRES_PASSWORD: postgres
+#    networks:
+#      - ms_network
+#    ports:
+#      - "5433:5432"
+#    volumes:
+#      - ./ms_payment/init.sql:/docker-entrypoint-initdb.d/init.sql
+#
+#  ms_user_db:
+#    image: postgres:latest
+#    environment:
+#      POSTGRES_DB: msuser
+#      POSTGRES_USER: postgres
+#      POSTGRES_PASSWORD: postgres
+#    networks:
+#      - ms_network
+#    ports:
+#      - "5434:5432"
+#    volumes:
+#      - ./ms_user/init.sql:/docker-entrypoint-initdb.d/init.sql
+
+networks:
+  ms_network:
+    driver: bridge

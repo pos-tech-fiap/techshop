@@ -1,0 +1,10 @@
+server:
+  port: 8082
+spring:
+  data:
+    mongodb:
+      uri: mongodb://msorder:msorder@ms_order_db:27017/msorders
+      username: msorder
+      password: msorder
+  jpa:
+    open-in-view: false
