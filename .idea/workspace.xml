@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d8d3aba-97aa-4f8d-a35e-54601578764e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/ms_order" beforeDir="false" afterPath="$PROJECT_DIR$/ms_order" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms_payment" beforeDir="false" afterPath="$PROJECT_DIR$/ms_payment" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms_product" beforeDir="false" afterPath="$PROJECT_DIR$/ms_product" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms_user/Dockerfile.database" beforeDir="false" afterPath="$PROJECT_DIR$/ms_user/Dockerfile.database" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms_user/init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/init.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms_user/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms_user/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +24,8 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/ms_payment" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -37,6 +40,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Docker.docker-compose.yml.ms_order_db: Compose Deployment.executor": "Run",
+    "Docker.docker-compose.yml.ms_user_db: Compose Deployment.executor": "Run",
     "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
     "Docker.ms_order/Dockerfile.app.executor": "Run",
     "Docker.ms_order/Dockerfile.database.executor": "Run",
@@ -50,7 +55,12 @@
     "last_opened_file_path": "/home/thacampos/Documents/Aulas/Pós/techshop/ms_order"
   }
 }]]></component>
-  <component name="RunManager" selected="Docker.ms_order/Dockerfile.database">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
       <deployment type="docker-compose.yml" />
       <method v="2" />
@@ -62,6 +72,32 @@
     <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
       <deployment type="docker-compose.yml">
         <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.ms_order_db: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="ms_order_db" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.ms_user_db: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="ms_user_db" />
+            </list>
+          </option>
           <option name="sourceFilePath" value="docker-compose.yml" />
         </settings>
       </deployment>
@@ -85,9 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.ms_user_db: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml.ms_order_db: Compose Deployment" />
         <item itemvalue="Docker.ms_order/Dockerfile.database" />
         <item itemvalue="Docker.ms_order/Dockerfile.app" />
-        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
@@ -108,5 +146,16 @@
       <updated>1711307803997</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
