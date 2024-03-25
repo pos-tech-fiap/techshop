@@ -10,7 +10,7 @@ A aplicação também permite adicionar usuários ao sistema, assim como buscar 
 ## Pedidos
 A aplicação oferece um endpoint com um relatório geral do sistema, exibindo o número total de pedidos ou de um pedido específico.
 
-##Pagamento
+## Pagamento
 A aplicação também dispões de opções de pagamento para o usuário, possibilitando a escolha entre: boleto, cartão de crédito, cartão de débito e pix.
 
 ## Desenvolvimento
