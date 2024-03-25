@@ -86,7 +86,7 @@ services:
 
   ms_user_db:
     build:
-      context: ./ms_payment/
+      context: ./ms_user/
       dockerfile: Dockerfile.database
     environment:
       POSTGRES_DB: msuser
